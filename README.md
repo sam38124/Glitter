@@ -1,3 +1,5 @@
+[![Platform](https://img.shields.io/badge/platform-%20Android%20-brightgreen.svg)](https://github.com/sam38124)
+[![characteristic](https://img.shields.io/badge/特點-%20輕量級%20%7C%20簡單易用%20%20%7C%20穩定%20-brightgreen.svg)](https://github.com/sam38124)
 # GlitterFrameWork
  This is the h5 hybrid development framework, which allows you to achieve cross-platform development of android, ios, and web, which allows you to greatly shorten the development time and retain the scalability of native development~
 
