@@ -11,22 +11,26 @@ import java.io.File
 
 object Glitter {
     fun setUp(rout:Routing){
+        val glitterRout=File("Glitter")
+        if(!glitterRout.exists()){
+            glitterRout.mkdir()
+        }
         rout{
             //取得Glitter版本號
             get("/GlitterVersion") {
-                call.respondText(File("resources/${call.parameters["AppName"]}/version").readText())
+                call.respondText(File("Glitter/${call.parameters["AppName"]}/version").readText())
             }
             //下載Glitter
             get("/GetGlitter") {
-                val nowVersion = File("resources/${call.parameters["AppName"]}/version").readText()
+                val nowVersion = File("Glitter/${call.parameters["AppName"]}/version").readText()
                 while(ZipUtil.UnZip){Thread.sleep(1000)}
-                var versionRout= File("resources/${call.parameters["AppName"]}/VersionHistory")
+                var versionRout= File("Glitter/${call.parameters["AppName"]}/VersionHistory")
                 if(!versionRout.exists()){
                     versionRout.mkdir()
                 }
                 if (!File("$versionRout/${nowVersion}.zip").exists()) {
                     println("unzip")
-                    ZipUtil.unzip("resources/${call.parameters["AppName"]}",nowVersion)
+                    ZipUtil.unzip("Glitter/${call.parameters["AppName"]}",nowVersion)
                 }
                 val file= File("$versionRout/${call.parameters["version"]}.zip")
                 if(file.exists()){
@@ -36,7 +40,8 @@ object Glitter {
                 }
             }
             //文件更新
-            File_Refresh.fileRefresh(rout, arrayOf("resources"))
+            File_Refresh.fileRefresh(rout, arrayOf("Glitter"))
+            
         }
     }
 }

@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../GlitterFrameWork-kotlinMultiplatform/1.0/GlitterFrameWork-kotlinMultiplatform-1.0.module",
+    "url": "../../GlitterFrameWork-kotlinMultiplatform/1.1/GlitterFrameWork-kotlinMultiplatform-1.1.module",
     "group": "com.jzLibrary",
     "module": "GlitterFrameWork-kotlinMultiplatform",
-    "version": "1.0",
+    "version": "1.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.1.1",
-      "buildId": "sfiucyk545b4bevm3bnek3qtuy"
+      "buildId": "pepce2d7onf7zh5gh5d2duaky4"
     }
   },
   "variants": [
@@ -90,13 +90,13 @@
       ],
       "files": [
         {
-          "name": "GlitterFrameWork-jvm-1.0.jar",
-          "url": "GlitterFrameWork-jvm-1.0.jar",
-          "size": 40159,
-          "sha512": "b378a60e05df2ba7845087467c8c77b277fd8ff37c8c8bfec0858133006e9f6d11ac2dc3b327d84dbf608b8e9c65e47006134c64084bef6ea1dfbd5f447dd350",
-          "sha256": "c4cb61273518ba013dbbc609d02f83e84b3f00a0fa3d0ad6b5740ce6cb7bf63f",
-          "sha1": "8ac5e5b573ad9b62886b78da144c806172bc0bcb",
-          "md5": "e490e67efb0c0cf5f078001d2e1e79a1"
+          "name": "GlitterFrameWork-jvm-1.1.jar",
+          "url": "GlitterFrameWork-jvm-1.1.jar",
+          "size": 40280,
+          "sha512": "932fa872dc04d67a0f8861d5aa0cb1dd37f278d40b179c4af52d1c21a776d59133d2ac34601cbb99e16bfb615aff8c10bf3a2fb28e620ebd854dbec90ee10c0d",
+          "sha256": "db75a067c7bcf29bd2ace03e13a55807448306db02bba5f8608dc8a74bd9bea1",
+          "sha1": "2bfc35b2fcf737ff85e94ada0cf7d481649e3bac",
+          "md5": "4e8bea8596b3f6216cbdd7da3fbe2a8e"
         }
       ]
     },
@@ -181,13 +181,13 @@
       ],
       "files": [
         {
-          "name": "GlitterFrameWork-jvm-1.0.jar",
-          "url": "GlitterFrameWork-jvm-1.0.jar",
-          "size": 40159,
-          "sha512": "b378a60e05df2ba7845087467c8c77b277fd8ff37c8c8bfec0858133006e9f6d11ac2dc3b327d84dbf608b8e9c65e47006134c64084bef6ea1dfbd5f447dd350",
-          "sha256": "c4cb61273518ba013dbbc609d02f83e84b3f00a0fa3d0ad6b5740ce6cb7bf63f",
-          "sha1": "8ac5e5b573ad9b62886b78da144c806172bc0bcb",
-          "md5": "e490e67efb0c0cf5f078001d2e1e79a1"
+          "name": "GlitterFrameWork-jvm-1.1.jar",
+          "url": "GlitterFrameWork-jvm-1.1.jar",
+          "size": 40280,
+          "sha512": "932fa872dc04d67a0f8861d5aa0cb1dd37f278d40b179c4af52d1c21a776d59133d2ac34601cbb99e16bfb615aff8c10bf3a2fb28e620ebd854dbec90ee10c0d",
+          "sha256": "db75a067c7bcf29bd2ace03e13a55807448306db02bba5f8608dc8a74bd9bea1",
+          "sha1": "2bfc35b2fcf737ff85e94ada0cf7d481649e3bac",
+          "md5": "4e8bea8596b3f6216cbdd7da3fbe2a8e"
         }
       ]
     },
@@ -198,10 +198,10 @@
         "org.jetbrains.kotlin.platform.type": "common"
       },
       "available-at": {
-        "url": "../../GlitterFrameWork/1.0/GlitterFrameWork-1.0.module",
+        "url": "../../GlitterFrameWork/1.1/GlitterFrameWork-1.1.module",
         "group": "com.jzLibrary",
         "module": "GlitterFrameWork",
-        "version": "1.0"
+        "version": "1.1"
       }
     }
   ]

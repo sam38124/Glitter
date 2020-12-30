@@ -24,7 +24,7 @@ def BINTRAY_ORGINIZATION = "sam38124" //  Your public facing Bintray name. You c
 def ISSUE_URL = "https://github.com/sam38124/GlitterFrameWork" // A link to an issue tracker for the library, in our example: "https://github.com/natanfudge/KotlinAwesomePrinter/issues"
 def SITE_URL = "https://github.com/sam38124/GlitterFrameWork" // A link to the library's site. In our example: "https://github.com/natanfudge/KotlinAwesomePrinter"
 def VCS_URL = "https://github.com/sam38124/GlitterFrameWork.git" // A link to the version control system (where the code is stored). In our example: "https://github.com/natanfudge/KotlinAwesomePrinter.git"
-def LIBRARY_VERSION_NAME = 1.0 // The current version of your library. You will need to update this value whenever you upload a new release. For example: 1.0
+def LIBRARY_VERSION_NAME = 1.1 // The current version of your library. You will need to update this value whenever you upload a new release. For example: 1.0
 repositories {
     jcenter()
     mavenCentral()

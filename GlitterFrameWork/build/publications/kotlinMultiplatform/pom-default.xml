@@ -9,6 +9,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.jzLibrary</groupId>
   <artifactId>GlitterFrameWork-kotlinMultiplatform</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <packaging>pom</packaging>
 </project>

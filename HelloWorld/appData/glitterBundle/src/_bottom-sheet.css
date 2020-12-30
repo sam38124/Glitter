@@ -1,0 +1,129 @@
+:root {
+    --translatey: 0px;
+}
+
+body {
+    perspective: 1000px;
+}
+
+.c-bottom-sheet {
+    pointer-events: none;
+    visibility: hidden;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 15;
+    transition: opacity, visibility 0.25s;
+}
+
+.c-bottom-sheet.active {
+    visibility: visible;
+    pointer-events: unset;
+}
+
+.c-bottom-sheet__scrim {
+    opacity: 0;
+    display: block;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: opacity 0.3s;
+    top: 0;
+}
+
+.active .c-bottom-sheet__scrim {
+    opacity: 1;
+}
+
+.c-bottom-sheet__sheet {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    width: 100%;
+    min-height: 38vh;
+    background-color: white;
+    border-radius: 12px 12px 0 0;
+    padding: 0 1.5rem calc(1rem + 100px) 1.5rem;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(100%);
+}
+
+.active .c-bottom-sheet__sheet {
+    transform: translateY(0);
+}
+
+.c-bottom-sheet__sheet.active {
+    transform: var(--translateY);
+}
+
+.c-bottom-sheet__handle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.c-bottom-sheet__handle > span {
+    display: block;
+    height: 2px;
+    width: 28px;
+    margin-bottom: 2px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+}
+
+.c-bottom-sheet__item {
+    width: 100%;
+    list-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.c-bottom-sheet__item:first-child {
+    margin-top: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.c-bottom-sheet__item.active {
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.c-bottom-sheet__link {
+    display: block;
+    padding: 1rem 0;
+}
+
+.c-bottom-sheet__link:hover, .c-bottom-sheet__link:visited {
+    color: unset;
+    text-decoration: none;
+}
+
+.c-bottom-sheet__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-bottom-sheet__tick {
+    display: none;
+    font-size: 24px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.c-bottom-sheet__tick:before {
+    color: #48af4a;
+}
+
+.c-bottom-sheet__item.active .c-bottom-sheet__tick {
+    display: block;
+}
+

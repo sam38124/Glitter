@@ -2,21 +2,15 @@
 <module version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JavaScript " allPlatforms="JS []" useProjectSettings="false" isTestModule="true" externalProjectId="GlitterFrameWork">
-        <dependsOnModuleNames>GlitterFrameWork:commonTest</dependsOnModuleNames>
+      <configuration version="3" platform="JavaScript " allPlatforms="JS []" useProjectSettings="false" isTestModule="false" externalProjectId="GlitterFrameWork">
+        <dependsOnModuleNames>GlitterFrameWork:commonMain</dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>GlitterFrameWork.commonTest</sourceSet>
-          <sourceSet>GlitterFrameWork.commonMain</sourceSet>
-          <sourceSet>GlitterFrameWork.jsMain</sourceSet>
+          <sourceSet>GlitterFrameWork.commonMain~1</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
-        <externalSystemTestTasks>
-          <externalSystemTestTask>jsBrowserTest|GlitterFrameWork:jsTest|js</externalSystemTestTask>
-          <externalSystemTestTask>jsNodeTest|GlitterFrameWork:jsTest|js</externalSystemTestTask>
-        </externalSystemTestTasks>
         <compilerSettings />
         <compilerArguments>
-          <option name="outputFile" value="$MODULE_DIR$/../../build/js/packages/GlitterFrameWork-test/kotlin/GlitterFrameWork-test.js" />
+          <option name="outputFile" value="$MODULE_DIR$/../../build/js/packages/GlitterFrameWork/kotlin/GlitterFrameWork.js" />
           <option name="noStdlib" value="true" />
           <option name="sourceMap" value="true" />
           <option name="metaInfo" value="true" />

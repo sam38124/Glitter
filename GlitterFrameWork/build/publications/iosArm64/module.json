@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../GlitterFrameWork-kotlinMultiplatform/1.0/GlitterFrameWork-kotlinMultiplatform-1.0.module",
+    "url": "../../GlitterFrameWork-kotlinMultiplatform/1.1/GlitterFrameWork-kotlinMultiplatform-1.1.module",
     "group": "com.jzLibrary",
     "module": "GlitterFrameWork-kotlinMultiplatform",
-    "version": "1.0",
+    "version": "1.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.1.1",
-      "buildId": "sfiucyk545b4bevm3bnek3qtuy"
+      "buildId": "pepce2d7onf7zh5gh5d2duaky4"
     }
   },
   "variants": [
@@ -98,12 +98,12 @@
       "files": [
         {
           "name": "GlitterFrameWork.klib",
-          "url": "GlitterFrameWork-iosArm64-1.0.klib",
-          "size": 3265,
-          "sha512": "aeb88c1074c5553709b107883f34ad75b0c450901471c1279a2c0fc4619b47df51e084cf8b360f6295fa639690b17fe05e01bc60c5162e07a6525b4b91b4f219",
-          "sha256": "95eee46fdbbe95aa4f3a6c95cc82598ba31b8da65381d315ce10e225cc0c594b",
-          "sha1": "ce94843bd8ffb85beb97787bdd71bd0d034d7dc3",
-          "md5": "e044aa20f082e8bd8041085cb3dcc6d1"
+          "url": "GlitterFrameWork-iosArm64-1.1.klib",
+          "size": 3269,
+          "sha512": "bb400a9f94ae1eea975462f71eba93a49b9db42535d7dff147ad812a9e079561accb1598e3ac706eed907a4abacd519ba33cc5f0ab7c9683e9a40937a85c2a72",
+          "sha256": "dc6e648c7dea4cee87ad0558bd41fbeddb9e4548bec455e4b377c7be97bf7ffc",
+          "sha1": "f4a327b7f19a38561f1a36fddff466002413da9c",
+          "md5": "dadd872b48596fcd017750e2e658cae1"
         }
       ]
     },
@@ -114,10 +114,10 @@
         "org.jetbrains.kotlin.platform.type": "common"
       },
       "available-at": {
-        "url": "../../GlitterFrameWork/1.0/GlitterFrameWork-1.0.module",
+        "url": "../../GlitterFrameWork/1.1/GlitterFrameWork-1.1.module",
         "group": "com.jzLibrary",
         "module": "GlitterFrameWork",
-        "version": "1.0"
+        "version": "1.1"
       }
     }
   ]

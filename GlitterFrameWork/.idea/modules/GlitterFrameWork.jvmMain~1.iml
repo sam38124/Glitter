@@ -5,7 +5,7 @@
       <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" isTestModule="false" externalProjectId="GlitterFrameWork">
         <dependsOnModuleNames>GlitterFrameWork:commonMain</dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>GlitterFrameWork.commonMain</sourceSet>
+          <sourceSet>GlitterFrameWork.commonMain~1</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings>

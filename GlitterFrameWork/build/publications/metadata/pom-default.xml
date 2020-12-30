@@ -8,7 +8,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.jzLibrary</groupId>
   <artifactId>GlitterFrameWork</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <dependencies>
     <dependency>
       <groupId>mysql</groupId>

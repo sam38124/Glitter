@@ -2,14 +2,17 @@
 <module version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="Native " allPlatforms="Native []" useProjectSettings="false" isTestModule="false" externalProjectId="GlitterFrameWork">
+      <configuration version="3" platform="Native " allPlatforms="Native []" useProjectSettings="false" isTestModule="true" externalProjectId="GlitterFrameWork">
         <dependsOnModuleNames>
-          <dependsOn>GlitterFrameWork:commonMain</dependsOn>
-          <dependsOn>GlitterFrameWork:iosMain</dependsOn>
+          <dependsOn>GlitterFrameWork:commonTest</dependsOn>
+          <dependsOn>GlitterFrameWork:iosTest</dependsOn>
         </dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>GlitterFrameWork.iosMain</sourceSet>
-          <sourceSet>GlitterFrameWork.commonMain</sourceSet>
+          <sourceSet>GlitterFrameWork.commonMain~1</sourceSet>
+          <sourceSet>GlitterFrameWork.iosArm64Main~1</sourceSet>
+          <sourceSet>GlitterFrameWork.iosTest~1</sourceSet>
+          <sourceSet>GlitterFrameWork.commonTest~1</sourceSet>
+          <sourceSet>GlitterFrameWork.iosMain~1</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />

@@ -8,8 +8,8 @@
           <dependsOn>GlitterFrameWork:iosMain</dependsOn>
         </dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>GlitterFrameWork.iosMain</sourceSet>
-          <sourceSet>GlitterFrameWork.commonMain</sourceSet>
+          <sourceSet>GlitterFrameWork.commonMain~1</sourceSet>
+          <sourceSet>GlitterFrameWork.iosMain~1</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />

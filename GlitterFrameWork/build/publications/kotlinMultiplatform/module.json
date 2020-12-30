@@ -3,7 +3,7 @@
   "component": {
     "group": "com.jzLibrary",
     "module": "GlitterFrameWork-kotlinMultiplatform",
-    "version": "1.0",
+    "version": "1.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.1.1",
-      "buildId": "sfiucyk545b4bevm3bnek3qtuy"
+      "buildId": "pepce2d7onf7zh5gh5d2duaky4"
     }
   },
   "variants": [
@@ -23,10 +23,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../GlitterFrameWork-iosArm64/1.0/GlitterFrameWork-iosArm64-1.0.module",
+        "url": "../../GlitterFrameWork-iosArm64/1.1/GlitterFrameWork-iosArm64-1.1.module",
         "group": "com.jzLibrary",
         "module": "GlitterFrameWork-iosArm64",
-        "version": "1.0"
+        "version": "1.1"
       }
     },
     {
@@ -37,10 +37,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../GlitterFrameWork-iosX64/1.0/GlitterFrameWork-iosX64-1.0.module",
+        "url": "../../GlitterFrameWork-iosX64/1.1/GlitterFrameWork-iosX64-1.1.module",
         "group": "com.jzLibrary",
         "module": "GlitterFrameWork-iosX64",
-        "version": "1.0"
+        "version": "1.1"
       }
     },
     {
@@ -50,10 +50,10 @@
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {
-        "url": "../../GlitterFrameWork-js/1.0/GlitterFrameWork-js-1.0.module",
+        "url": "../../GlitterFrameWork-js/1.1/GlitterFrameWork-js-1.1.module",
         "group": "com.jzLibrary",
         "module": "GlitterFrameWork-js",
-        "version": "1.0"
+        "version": "1.1"
       }
     },
     {
@@ -63,10 +63,10 @@
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {
-        "url": "../../GlitterFrameWork-js/1.0/GlitterFrameWork-js-1.0.module",
+        "url": "../../GlitterFrameWork-js/1.1/GlitterFrameWork-js-1.1.module",
         "group": "com.jzLibrary",
         "module": "GlitterFrameWork-js",
-        "version": "1.0"
+        "version": "1.1"
       }
     },
     {
@@ -77,10 +77,10 @@
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "available-at": {
-        "url": "../../GlitterFrameWork-jvm/1.0/GlitterFrameWork-jvm-1.0.module",
+        "url": "../../GlitterFrameWork-jvm/1.1/GlitterFrameWork-jvm-1.1.module",
         "group": "com.jzLibrary",
         "module": "GlitterFrameWork-jvm",
-        "version": "1.0"
+        "version": "1.1"
       }
     },
     {
@@ -91,10 +91,10 @@
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "available-at": {
-        "url": "../../GlitterFrameWork-jvm/1.0/GlitterFrameWork-jvm-1.0.module",
+        "url": "../../GlitterFrameWork-jvm/1.1/GlitterFrameWork-jvm-1.1.module",
         "group": "com.jzLibrary",
         "module": "GlitterFrameWork-jvm",
-        "version": "1.0"
+        "version": "1.1"
       }
     },
     {
@@ -104,10 +104,10 @@
         "org.jetbrains.kotlin.platform.type": "common"
       },
       "available-at": {
-        "url": "../../GlitterFrameWork/1.0/GlitterFrameWork-1.0.module",
+        "url": "../../GlitterFrameWork/1.1/GlitterFrameWork-1.1.module",
         "group": "com.jzLibrary",
         "module": "GlitterFrameWork",
-        "version": "1.0"
+        "version": "1.1"
       }
     }
   ]

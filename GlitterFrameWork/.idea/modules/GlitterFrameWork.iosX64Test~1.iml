@@ -8,11 +8,11 @@
           <dependsOn>GlitterFrameWork:iosTest</dependsOn>
         </dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>GlitterFrameWork.iosTest</sourceSet>
-          <sourceSet>GlitterFrameWork.iosX64Main</sourceSet>
-          <sourceSet>GlitterFrameWork.commonTest</sourceSet>
-          <sourceSet>GlitterFrameWork.iosMain</sourceSet>
-          <sourceSet>GlitterFrameWork.commonMain</sourceSet>
+          <sourceSet>GlitterFrameWork.commonMain~1</sourceSet>
+          <sourceSet>GlitterFrameWork.iosX64Main~1</sourceSet>
+          <sourceSet>GlitterFrameWork.iosTest~1</sourceSet>
+          <sourceSet>GlitterFrameWork.commonTest~1</sourceSet>
+          <sourceSet>GlitterFrameWork.iosMain~1</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <externalSystemTestTasks>iosX64Test|GlitterFrameWork:iosX64Test|iosX64</externalSystemTestTasks>
