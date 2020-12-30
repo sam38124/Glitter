@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Build-Jdk: 11.0.6
+Built-By: builduser
+Created-By: Gradle 5.6.4
+Implementation-Vendor: JetBrains s.r.o.
+Implementation-Version: 0.7.1
+

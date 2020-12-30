@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.jzLibrary",
+    "module": "GlitterFrameWork-kotlinMultiplatform",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "sfiucyk545b4bevm3bnek3qtuy"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../GlitterFrameWork-iosArm64/1.0/GlitterFrameWork-iosArm64-1.0.module",
+        "group": "com.jzLibrary",
+        "module": "GlitterFrameWork-iosArm64",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "iosX64-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../GlitterFrameWork-iosX64/1.0/GlitterFrameWork-iosX64-1.0.module",
+        "group": "com.jzLibrary",
+        "module": "GlitterFrameWork-iosX64",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "js-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../GlitterFrameWork-js/1.0/GlitterFrameWork-js-1.0.module",
+        "group": "com.jzLibrary",
+        "module": "GlitterFrameWork-js",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "js-runtime",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../GlitterFrameWork-js/1.0/GlitterFrameWork-js-1.0.module",
+        "group": "com.jzLibrary",
+        "module": "GlitterFrameWork-js",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "jvm-api",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../GlitterFrameWork-jvm/1.0/GlitterFrameWork-jvm-1.0.module",
+        "group": "com.jzLibrary",
+        "module": "GlitterFrameWork-jvm",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../GlitterFrameWork-jvm/1.0/GlitterFrameWork-jvm-1.0.module",
+        "group": "com.jzLibrary",
+        "module": "GlitterFrameWork-jvm",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../GlitterFrameWork/1.0/GlitterFrameWork-1.0.module",
+        "group": "com.jzLibrary",
+        "module": "GlitterFrameWork",
+        "version": "1.0"
+      }
+    }
+  ]
+}

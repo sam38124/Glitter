@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../GlitterFrameWork-kotlinMultiplatform/1.0/GlitterFrameWork-kotlinMultiplatform-1.0.module",
+    "group": "com.jzLibrary",
+    "module": "GlitterFrameWork-kotlinMultiplatform",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "sfiucyk545b4bevm3bnek3qtuy"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "mysql",
+          "module": "mysql-connector-java",
+          "version": {
+            "requires": "5.1.46"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.5"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-apache",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core-jvm",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-html-builder",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-netty",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "GlitterFrameWork.klib",
+          "url": "GlitterFrameWork-iosArm64-1.0.klib",
+          "size": 3265,
+          "sha512": "aeb88c1074c5553709b107883f34ad75b0c450901471c1279a2c0fc4619b47df51e084cf8b360f6295fa639690b17fe05e01bc60c5162e07a6525b4b91b4f219",
+          "sha256": "95eee46fdbbe95aa4f3a6c95cc82598ba31b8da65381d315ce10e225cc0c594b",
+          "sha1": "ce94843bd8ffb85beb97787bdd71bd0d034d7dc3",
+          "md5": "e044aa20f082e8bd8041085cb3dcc6d1"
+        }
+      ]
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../GlitterFrameWork/1.0/GlitterFrameWork-1.0.module",
+        "group": "com.jzLibrary",
+        "module": "GlitterFrameWork",
+        "version": "1.0"
+      }
+    }
+  ]
+}

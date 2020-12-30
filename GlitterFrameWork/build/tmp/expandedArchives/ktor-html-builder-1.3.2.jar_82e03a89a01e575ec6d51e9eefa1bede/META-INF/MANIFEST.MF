@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Implementation-Title: ktor-html-builder
+Implementation-Version: 1.3.2
+

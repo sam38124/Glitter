@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: Apache HttpAsyncClient
+Automatic-Module-Name: org.apache.httpcomponents.httpasyncclient
+Implementation-Version: 4.1.4
+Archiver-Version: Plexus Archiver
+Built-By: oleg
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: Apache HttpAsyncClient
+Implementation-Vendor-Id: org.apache.httpcomponents
+Implementation-Vendor: The Apache Software Foundation
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_121
+Specification-Version: 4.1.4
+
